@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+Backend/node_modules/
+Frontend/node_modules/
+
+# Environment files
+.env
+.env.*
+Backend/.env
+Backend/.env.*
+Frontend/.env
+Frontend/.env.*
+
+# Build files
+dist/
+build/
+Backend/dist/
+Backend/build/
+Frontend/dist/
+Frontend/build/
+.next/
+out/
+
+# Logs
+*.log
+logs/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cache / temp
+.cache/
+tmp/
+temp/
+
+# DB files
+*.sqlite
+*.db
+
+# Secrets
+*.pem
+*.key
