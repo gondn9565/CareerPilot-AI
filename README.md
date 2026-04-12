@@ -151,6 +151,8 @@ If you found this project useful, please give it a ⭐ on GitHub!
 
 Feel free to connect for collaboration or opportunities 🚀
 
+---
+
 ## 📁 Folder Structure
 
 The project follows a modular and scalable folder structure separating frontend and backend concerns.
