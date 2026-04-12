@@ -150,3 +150,66 @@ If you found this project useful, please give it a ⭐ on GitHub!
 ## 📬 Contact
 
 Feel free to connect for collaboration or opportunities 🚀
+
+## 📁 Folder Structure
+
+The project follows a modular and scalable folder structure separating frontend and backend concerns.
+
+```
+AI-Job-Prep-Portal/
+│
+├── client/                         # Frontend (React + Vite)
+│   ├── public/                     # Static assets
+│   ├── src/
+│   │   ├── components/             # Reusable UI components
+│   │   ├── pages/                  # Application pages (Dashboard, Upload, etc.)
+│   │   ├── context/                # Global state management (Context API)
+│   │   ├── hooks/                  # Custom React hooks
+│   │   ├── services/               # API calls using Axios
+│   │   ├── styles/                 # SCSS styling files
+│   │   ├── App.jsx                 # Root component
+│   │   └── main.jsx                # Entry point
+│   │
+│   └── package.json
+│
+├── server/                         # Backend (Node.js + Express)
+│   ├── config/                     # Database & environment configuration
+│   ├── controllers/                # Business logic for routes
+│   ├── models/                     # Mongoose schemas
+│   ├── routes/                     # API route definitions
+│   ├── middleware/                 # Authentication & error handling
+│   ├── services/                   # AI logic & PDF generation (Gemini, Puppeteer)
+│   ├── utils/                      # Helper/utility functions
+│   ├── index.js                    # Server entry point
+│   │
+│   └── package.json
+│
+├── .env                            # Environment variables
+├── .gitignore                      # Git ignored files
+├── README.md                       # Project documentation
+└── package.json                    # Root dependencies (if any)
+```
+
+---
+
+## 🧠 Architecture Insight
+
+- **Separation of Concerns**: Frontend and backend are isolated for better scalability  
+- **MVC Pattern (Backend)**:
+  - Models → Database structure  
+  - Controllers → Business logic  
+  - Routes → API endpoints  
+- **Service Layer**:
+  - Handles AI integration (Gemini API)  
+  - Manages PDF generation (Puppeteer)  
+- **Frontend Structure**:
+  - Component-based architecture  
+  - Centralized state management using Context API  
+
+---
+
+## 🚀 Why This Structure?
+
+- Improves maintainability and readability  
+- Scales easily for large applications  
+- Follows industry best practices used in production systems  
