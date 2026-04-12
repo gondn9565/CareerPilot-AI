@@ -1,19 +1,6 @@
 # 🚀 AI-Powered Job Preparation Portal
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
-![Stars](https://img.shields.io/github/stars/your-username/your-repo-name?style=social)
-![Forks](https://img.shields.io/github/forks/your-username/your-repo-name?style=social)
-![Issues](https://img.shields.io/github/issues/your-username/your-repo-name)
-![PRs](https://img.shields.io/github/issues-pr/your-username/your-repo-name)
 
-![React](https://img.shields.io/badge/Frontend-React.js-61DAFB?logo=react)
-![Node](https://img.shields.io/badge/Backend-Node.js-339933?logo=node.js)
-![Express](https://img.shields.io/badge/Server-Express.js-black?logo=express)
-![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb)
-![Gemini](https://img.shields.io/badge/AI-Google%20Gemini-blueviolet)
-![JWT](https://img.shields.io/badge/Auth-JWT-orange)
-![Puppeteer](https://img.shields.io/badge/PDF-Puppeteer-green)
 
 ---
 
